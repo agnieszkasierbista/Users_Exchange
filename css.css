@@ -58,3 +58,6 @@ table tr td {
 td {
     padding: 2px;
 }
+#submitter {
+    text-align: center;
+}
