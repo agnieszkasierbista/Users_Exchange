@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #40856F;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #090931;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.unbullet {
+    list-style-type: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #375FA9;
+    color: black;
+}
+
+/* Style the content */
+.content {
+    background-color: #BCF3E2;
+    color: #090931;
+    padding: 10px;
+}
+
+/* Style the footer */
+.footer {
+    background-color: #090931;
+    color: #40856F;
+    padding: 10px;
+}
+strong {
+    color: #2222E1;
+}
+.detail {
+    color:#375FA9;
+}
+table tr td {
+    border: 1px solid #090931;
+    border-collapse: collapse;
+}

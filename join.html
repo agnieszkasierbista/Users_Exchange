@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Welcome to Exchange - join</title>
+        <link rel="stylesheet" href="css.css">
+        <meta name="description" content="">
+		<meta name="keywords" content="">
+		<!--[if lt IE 9]>
+			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <header></header>
+        <nav class="topnav">
+            <ul class="unbullet">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="search.html">Search User</a></li>
+                <li><a href="about.html">About Us</a></li>
+            </ul>
+        </nav>
+        <article class="content">
+        <h1>Join Us!</h1>
+        <h2>To join us fill the form below.</h2>
+            <form action="" method="" >
+                <table>
+                    <tr>
+                        <td colspan="11"><b>User name: </b><input type="text" pattern="[a-zA-Z]" size="35" name="user_name" maxlength="50" value=""></td>
+                    </tr>
+                    <tr>
+                        <td colspan="11"><b>Your email: </b><input type="email" size="35" name="user_email" maxlength="50" value=""></td>
+                    </tr> 
+                    <tr>    
+                        <td colspan="11"><h4>Choose your programming language: </h4>
+                            <tr>
+                                <td>
+                                    <input type="checkbox" name="programming_language" value="JavaScript"><b> JavaScript</b>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="programming_language" value="Elixir"><b> Elixir</b>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="programming_language" value="Java"><b> Java</b>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="programming_language" value="Elm"><b> Elm</b>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="programming_language" value="Lisp"><b> Lisp</b>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="programming_language" value="C++"><b> C++</b>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="programming_language" value=".NET"><b> .NET</b>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="programming_language" value="C#"><b> C#</b>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="programming_language" value="PHP"><b> PHP</b>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="programming_language" value="Go"><b> Go</b>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="programming_language" value="Other"><b> Other: </b><input type="text" pattern="[a-zA-Z]*" size="35" name="other_language" maxlength="50" value="">
+                                </td>
+                            </tr>
+                        </td>
+                    </tr>
+                    <tr>     
+                        <td colspan="11"><h4>What's your hobby? (add many)</h4>
+                            <b>Cheese </b><input type="checkbox" name="chess" value="Chess">
+                            <b>Baloons </b><input type="checkbox" name="checkers" value="Checkers"></td>
+                    </tr>
+                    <tr>    
+                        <td colspan="11"><h4>Select prefered country:</h4>
+                            <select name="country">
+                                <option value="None selected">Please select below</option>
+                                <option value="Afghanistan">USA</option>
+                                <option value="Albania">Poland</option>
+                            </select></td>
+                    </tr>
+                    <tr>     
+                        <td colspan="11">
+                            <h5>Here go your additional comments:</h5>
+                            <textarea name="comments" rows="3" maxlength="200" cols="60"></textarea>
+                            <input type="submit" value=" Submit "></td>
+                    </tr>
+                </table>
+            </form>
+        </form>
+        </article>
+        <footer class="footer">
+            <h1>Agnieszka Sierbista</h1>
+            <p>&copy;</p>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+        <script src="index.js"></script>
+        <script src="jquery.js"></script>
+    </body>
+</html>
