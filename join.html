@@ -26,58 +26,79 @@
             <form action="" method="" >
                 <table>
                     <tr>
-                        <td colspan="11"><b>User name: </b><input type="text" pattern="[a-zA-Z]" size="35" name="user_name" maxlength="50" value=""></td>
+                        <td><b>User name: </b></td>
                     </tr>
                     <tr>
-                        <td colspan="11"><b>Your email: </b><input type="email" size="35" name="user_email" maxlength="50" value=""></td>
+                        <td><input type="text" pattern="[a-zA-Z]" size="35" name="user_name" maxlength="50" value=""></td>
+                    </tr>
+                    <tr>
+                        <td><b>Your email: </b></td>
+                    </tr>
+                    <tr>
+                        <td><input type="email" size="35" name="user_email" maxlength="50" value=""></td>
                     </tr> 
                     <tr>    
-                        <td colspan="11"><h4>Choose your programming language: </h4>
+                        <td><b>Choose your programming language: </b>
                             <tr>
                                 <td>
                                     <input type="checkbox" name="programming_language" value="JavaScript"><b> JavaScript </b>
                                 </td>
+                            </tr>
+                            <tr>
                                 <td>
                                     <input type="checkbox" name="programming_language" value="Elixir"><b> Elixir </b>
                                 </td>
+                            </tr>
+                            <tr>
                                 <td>
                                     <input type="checkbox" name="programming_language" value="Java"><b> Java </b>
                                 </td>
+                            </tr>
+                            <tr>
                                 <td>
                                     <input type="checkbox" name="programming_language" value="Elm"><b> Elm </b>
                                 </td>
+                            </tr>
+                            <tr>    
                                 <td>
                                     <input type="checkbox" name="programming_language" value="Lisp"><b> Lisp </b>
                                 </td>
+                            </tr>
+                            <tr>
                                 <td>
                                     <input type="checkbox" name="programming_language" value="C++"><b> C++ </b>
                                 </td>
+                            </tr>
+                            <tr>
                                 <td>
                                     <input type="checkbox" name="programming_language" value=".NET"><b> .NET </b>
                                 </td>
+                            </tr>
+                            <tr>
                                 <td>
                                     <input type="checkbox" name="programming_language" value="C#"><b> C# </b>
                                 </td>
+                            </tr>
+                            <tr>
                                 <td>
                                     <input type="checkbox" name="programming_language" value="PHP"><b> PHP </b>
                                 </td>
+                            </tr>
+                            <tr>
                                 <td>
                                     <input type="checkbox" name="programming_language" value="Go"><b> Go </b>
                                 </td>
+                            </tr>
+                            <tr>
                                 <td>
                                     <input type="checkbox" name="programming_language" value="Other"><b> Other: </b><input type="text" pattern="[a-zA-Z]*" size="15" name="other_language" maxlength="15" value="">
                                 </td>
                             </tr>
-                        </td>
-                    </tr>
-                    <tr>     
-                        <td colspan="11"><h4>What's your hobby? (add many)</h4>
-                            <b>Cheese </b><input type="checkbox" name="chess" value="Chess">
-                            <b>Baloons </b><input type="checkbox" name="checkers" value="Checkers">
+                            </tr>
                         </td>
                     </tr>
                     <tr>    
-                        <td colspan="11"><h4>Select your country:</h4>
+                        <td><b>Select your country:</b>
                             <select name="country">
                                 <option value="None selected">Please select below</option>
                                 <option value="ISO 3166-2:AF">Afghanistan</option>
@@ -333,13 +354,13 @@
                         </td>
                     </tr>
                     <tr>     
-                        <td colspan="11">
+                        <td>
                             <h5>Here go your additional comments:</h5>
                             <textarea name="comments" rows="5" maxlength="500" cols="100"></textarea>
                         </td>
                     </tr>
                     <tr>
-                        <td id="submitter" colspan="11">
+                        <td id="submitter">
                             <input type="submit" value=" Submit the form">
                         </td>
                     </tr>
