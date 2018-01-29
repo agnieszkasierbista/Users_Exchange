@@ -10,3 +10,5 @@ if (age > 18) {
 }
 
 alert(accessAllowed);
+
+// let accessAllowed = (age > 18) ? true : false;
