@@ -26,3 +26,12 @@ formContent.addEventListener("submit", function (evt) {
 
   localStorage.setItem(userData.value, JSON.stringify($(formContent).serializeArray()));
 });
+
+// jakas funkcja do testowania testowania
+
+function sumIt(a, b, c) {
+  let result = a + b + c;
+  return result;
+}
+
+console.log(sumIt(1, 2, 3));
